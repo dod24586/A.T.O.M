@@ -1,0 +1,20 @@
+.card-text {
+  color: #fff;
+  font: normal normal 700 large oswald-medium, oswald, sans-serif;
+}
+.card-text:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.container {
+  text-align: center;
+}
+.card-body {
+  background-color: rgba(139, 0, 0, 1);
+  border-color: rgba(139, 0, 0, 1);
+  border-radius: 26px;
+}
+.card-body:hover {
+  background-color: rgba(92, 145, 184, 1);
+  border-color: rgba(56, 198, 139, 1);
+}

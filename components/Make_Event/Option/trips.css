@@ -1,0 +1,21 @@
+.card-img-size {
+  height: 16.7rem;
+  width: auto; /*maintain aspect ratio*/
+  max-width: 20.5rem;
+} /*
+.sizingCarousl {
+  height: 16.7rem;
+  width: auto; /*maintain aspect ratio
+  max-width: 20.5rem;
+}*/
+.MobileMarge {
+  margin: 0 4px 4px 0;
+}
+@media only screen and (max-width: 682px) and(min-width:320px) {
+  .w3-card-3 .w3-show-inline-block .w3-margin-bottom .w3-margin-right {
+    margin-right: 0px !important;
+  }
+  .MobileMarge {
+    margin: 0 0px 4px 0;
+  }
+}
