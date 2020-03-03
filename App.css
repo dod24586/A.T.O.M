@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+@font-face {
+  font-family: "PacificaCondensed";
+  src: url("./fonts/PacificaCondensedMedium.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/PacificaCondensedMedium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/PacificaCondensedMedium.otf") format("opentype"),
+    url("./fonts/PacificaCondensedMedium.svg") format("svg"),
+    url("./fonts/PacificaCondensedMedium.ttf") format("truetype"),
+    url("./fonts/PacificaCondensedMedium.woff") format("woff"),
+    url("./fonts/PacificaCondensedMedium.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: url("./fonts/ProximaNova-Regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/ProximaNova-Regular.otf") format("opentype"),
+    url("./fonts/ProximaNova-Regular.svg") format("svg"),
+    url("./fonts/ProximaNova-Regular.ttf") format("truetype"),
+    url("./fonts/ProximaNova-Regular.woff") format("woff"),
+    url("./fonts/ProximaNova-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h1 {
+  font-family: PacificaCondensed;
+  font-size: 21px;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 46.2px;
+}
+h3 {
+  font-family: "Lucida Console", "Lucida Sans Typewriter", monaco,
+    "Bitstream Vera Sans Mono", monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+p {
+  font-family: ProximaNova-Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30.8px;
+}
+blockquote {
+  font-family: "Lucida Console", "Lucida Sans Typewriter", monaco,
+    "Bitstream Vera Sans Mono", monospace;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: "Lucida Console", "Lucida Sans Typewriter", monaco,
+    "Bitstream Vera Sans Mono", monospace;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+a {
+  font-family: ProximaNova-Regular;
+}
+html {
+  background: -webkit-linear-gradient(bottom, #000, #191654);
+  min-height: 100%;
+  background-repeat: repeat-x;
+  background-color: black;
+}
+/*body
+{
+  background-color: transparent
+}
+#root
+{
+  background: -webkit-linear-gradient(bottom, #000, #191654);
+    min-height: 100%;}*/

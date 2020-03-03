@@ -1,0 +1,8 @@
+.w3-white {
+  /*width: fit-content;*/
+  width: 100%;
+}
+.w3-block {
+  text-decoration: none;
+  font: normal normal normal 15px/1.4em proxima-n-w01-reg, sans-serif;
+}
